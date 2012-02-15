@@ -1,22 +1,24 @@
 #Calculadora Polaca
 ========
-   Practica 1.3 realizada para la materia Organizacion de computadores.
+   Pr谩ctica 1.3 realizada para la materia Organizaci贸n de computadores.
 
   **Por:**
-   *    Esteban Arango Medina
-   *    Daniel Duque Tirado
-   *     Daniel Zuluaga Suarez
+  
+   * Esteban Arango Medina
+   * Daniel Duque Tirado
+   * Daniel Zuluaga Suarez
 
-Esta practica fue realizada en el lenguaje *assembler* de procesadores Intel para Linux, usando el compilador NASM ([The net wide assembler](http://repo.or.cz/w/nasm.git "NASM git")).
 
-###Instalacion NASM
- Para la instalaci髇 de NASM en las distribuciones Debian y Ubuntu basta con abrir la 'terminal' y escribir:
+Esta pr谩ctica fue realizada en el lenguaje *assembler* de procesadores Intel para Linux, usando el compilador NASM ([The net wide assembler](http://repo.or.cz/w/nasm.git "NASM git")).
+
+###Instalaci贸n NASM
+ Para la instalaci贸n de NASM en las distribuciones Debian y Ubuntu basta con abrir la 'terminal' y escribir:
     
 	$ sudo apt-get install nasm
 
-###__Ejecucion__
+###__Ejecuci贸n__
  Para correr la Calculadora simplemente 'compilamos' *Calculadora.asm* y creamos el paquete ejecutable.
     
-	nasm -f elf Calculadora.asm 
-    ld Calculadora.o -o Calculadora
-    ./Calculadora`
+     $ nasm -f elf Calculadora.asm 
+     $ ld Calculadora.o -o Calculadora
+     $ ./Calculadora`
