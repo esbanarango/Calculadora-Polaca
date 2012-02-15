@@ -1,6 +1,6 @@
 #Calculadora Polaca
 ========
-   Práctica 1.3 realizada para la materia Organización de computadores.
+   Pr&aacutectica 1.3 realizada para la materia Organización de computadores.
 
   **Por:**
    *    Esteban Arango Medina
